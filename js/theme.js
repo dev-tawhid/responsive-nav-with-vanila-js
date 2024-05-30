@@ -31,16 +31,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     var menuItems = document.querySelectorAll('.menu-item-has-children > a');
 
-//     menuItems.forEach(function(item) {
-//         item.addEventListener('click', function(event) {
-//             event.preventDefault();
-//             var subMenu = this.parentElement.querySelector(':scope > .sub-menu');
-//             if (subMenu) {
-//                 subMenu.classList.toggle('active');
-//             }
-//         });
-//     });
-// });
